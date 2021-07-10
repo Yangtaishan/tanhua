@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.tanhua.server.test.HuanxinTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.728 s <<< FAILURE! - in com.tanhua.server.test.HuanxinTest
+registerBatch(com.tanhua.server.test.HuanxinTest)  Time elapsed: 1.25 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 
+	at com.tanhua.server.test.HuanxinTest.registerBatch(HuanxinTest.java:29)
+
+testRegister(com.tanhua.server.test.HuanxinTest)  Time elapsed: 0.595 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$BadRequest: 400 
+	at com.tanhua.server.test.HuanxinTest.testRegister(HuanxinTest.java:23)
+

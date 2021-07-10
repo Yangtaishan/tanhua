@@ -1,0 +1,11 @@
+com\tanhua\dubbo\api\db\AnnouncementApi.class
+com\tanhua\dubbo\api\db\SettingsApi.class
+com\tanhua\dubbo\api\mongo\VideosApi.class
+com\tanhua\dubbo\api\mongo\CommentApi.class
+com\tanhua\dubbo\api\db\UserInfoApi.class
+com\tanhua\dubbo\api\db\BlacklistApi.class
+com\tanhua\dubbo\api\mongo\FriendApi.class
+com\tanhua\dubbo\api\mongo\RecommendUserApi.class
+com\tanhua\dubbo\api\db\QuestionApi.class
+com\tanhua\dubbo\api\db\UserApi.class
+com\tanhua\dubbo\api\mongo\PublishApi.class

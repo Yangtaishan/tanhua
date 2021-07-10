@@ -1,0 +1,60 @@
+server:
+  port: 10880
+dubbo:
+  application:
+    name: tanhua-server
+  registry:
+    address: zookeeper://10.10.20.160:2181
+  consumer:
+    check: false
+# log
+logging:
+  level:
+    root: info
+    com:
+      tanhua: debug
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %msg - %logger{15}%n\'
+spring:
+  redis:
+    host: 10.10.20.160
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+tanhua:
+  tokenKey: TOKEN_
+  secret: 62a0344c8c6a4c715d04bc895a1c94d2
+  redisValidateCodeKeyPrefix: VALIDATECODE_
+  redisValidateCodeKeyPrefixUpdate: VALIDATECODEUPDATE_
+  sms:
+    signName: 传智播客
+    parameterName: code
+    validateCodeTemplateCode: SMS_204761533
+    accessKeyId: LTAI5tPQf9qCNmTUwtAm2zzc
+    accessKeySecret: droBhjw5v0Go2FxSS3bk2dCNP5lsnF
+  oss:
+    endpoint: http://oss-cn-shenzhen.aliyuncs.com
+    bucketName: mytanhua113
+    url: https://mytanhua113.oss-cn-shenzhen.aliyuncs.com
+    accessKeyId: LTAI5tPQf9qCNmTUwtAm2zzc
+    accessKeySecret: droBhjw5v0Go2FxSS3bk2dCNP5lsnF
+  face:
+    appId: 24447715
+    apiKey: PLuQZEvOD6dmny7WZrGZMNcz
+    secretKey: gsqWgxxULsaMwOldrxXozTGWs8T7C0PK
+  huanxin:
+    url: http://a1.easemob.com/
+    orgName: 1155210709084703
+    appName: tanhua1
+    clientId: YXA626tc4EJOT7K63bSh4YS62Q
+    clientSecret: YXA6Oj72MqtLKp_dwcH3ZRS2NUatYqE
+fdfs:
+  connect-timeout: 600
+  so-timeout: 1500
+  thumb-image:
+    height: 150
+    width: 150
+  tracker-list: 10.10.20.160:22122
+  web-server-url: http://10.10.20.160:8888/

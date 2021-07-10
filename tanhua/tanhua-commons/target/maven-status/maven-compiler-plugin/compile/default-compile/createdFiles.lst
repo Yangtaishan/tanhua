@@ -1,0 +1,11 @@
+com\tanhua\commons\properties\HuanXinProperties.class
+com\tanhua\commons\vo\HuanXinUser.class
+com\tanhua\commons\CommonsAutoConfiguration.class
+com\tanhua\commons\properties\FaceProperties.class
+com\tanhua\commons\properties\SmsProperties.class
+com\tanhua\commons\templates\FaceTemplate.class
+com\tanhua\commons\templates\OssTemplate.class
+com\tanhua\commons\templates\SmsTemplate.class
+com\tanhua\commons\exception\TanHuaException.class
+com\tanhua\commons\properties\OssProperties.class
+com\tanhua\commons\templates\HuanXinTemplate.class
